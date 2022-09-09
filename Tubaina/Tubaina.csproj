@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tubaina.Encoder\Tubaina.Encoder.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\Request\" />
   </ItemGroup>
 
 </Project>
