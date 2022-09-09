@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="" en"">
+<head>
+    <style>
+        html, body {
+            text-align: center;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .flex-row {
+            flex-direction: row;
+        }
+
+        .align-center {
+            align-items: center;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <img src="data:image/png;base64, {{ imageBase64 }}" style="width:200px;height:200px;" id="qrcode">
+    </img>
+    <span class="flex flex-col">
+        <h3>
+            OP
+            <span style="margin-top: -10px;letter-spacing: 1.5px">{{ operator }}</span>
+        </h3>
+    </span>
+
+    <p id="emission">{{ moment }}</p>
+
+    <span class="flex flex-col text-left">
+        {{ descriptionShort }}
+    </span>
+</body>
+</html>
