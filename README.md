@@ -2,6 +2,8 @@
 
 Solução de emissão de Guias de Serviço autenticáveis.
 
+![image](https://user-images.githubusercontent.com/46321360/189458010-f6c25239-1bd3-40c1-a3f3-783a973b6046.png)
+
 ## Tubaina API
 API RESTful em .NET Core. Os documentos são embarcados no Swagger (`/swagger/index.html`).
 
