@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tubaina", "Tubaina\Tubaina.csproj", "{BF98CACC-AE5D-437E-A75D-E4988755988B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tubaina.Encoder", "Tubaina.Encoder\Tubaina.Encoder.csproj", "{91F65680-897E-4206-B6DC-E84B9C6C5CAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BF98CACC-AE5D-437E-A75D-E4988755988B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF98CACC-AE5D-437E-A75D-E4988755988B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF98CACC-AE5D-437E-A75D-E4988755988B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F65680-897E-4206-B6DC-E84B9C6C5CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F65680-897E-4206-B6DC-E84B9C6C5CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F65680-897E-4206-B6DC-E84B9C6C5CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F65680-897E-4206-B6DC-E84B9C6C5CAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
